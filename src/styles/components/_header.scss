@@ -1,0 +1,7 @@
+.header {
+    @include rectangle(600px, 200px);
+
+    .header__logo {
+        @include img-object-fit(contain);
+    }
+}
