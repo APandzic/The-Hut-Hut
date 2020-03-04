@@ -8,10 +8,58 @@
   <link rel="stylesheet" href="bali.css">
 </head>
 
-<a href="about.html">about</a>
+<body>
+  <nav>
+    <div class="nav-main">
+      <a href="#!" class="brand-logo">Logo</a>
+      <ul class="nav-list">
+        <li><a href="https://hotels.cloudbeds.com/reservation/RgI8U4" class="btn-link-nav">Book Now</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Gallary</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="btn-toogle-nav" href="#!">Meny</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Dropdown Structure -->
+  <aside class="nav-sidebar">
+    <ul>
+      <li><a href="#!">Home</a></li>
+      <li><a href="#!">News</a></li>
+      <li><a href="#!">Prices & Services</a></li>
+      <li><a href="#!">About</a></li>
+      <li><a href="#!">Contact</a></li>
+      <li><a href="#!">Access & Location</a></li>
+    </ul>
+  </aside>
+  <!-- first page  -->
+  <div class="first-view">
+    <!-- background IMG  -->
+    <img class="hero-img" src="img/testeHome.jpg" alt="picture thehuthut">
+    <h1 class="andreas">The Hut Hut</h1>
+    <!-- booking form -->
+    <form class="booking-form" method="post" action="https://hotels.cloudbeds.com/reservation/RgI8U4">
+      <div class="booking-form-container">
+        <input type="hidden" name="data_format" value="d/m/y">
+        <div class="inner">
+          <label for="widget_date">Arrival</label>
+          <input type="date" class="today" name="widget_date" value="d/m/y">
+        </div>
+        <div class="inner">
+          <label for="widget_date_to">Departure</label>
+          <input type="date" class="tomorrow" name="widget_date_to" value="d/m/y">
+        </div>
+        <div class="btn-form">
+          <button class="btn-submit">Book Now</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- second page  -->
+  <div class="secound-view">
 
-<body class="andreas">
-  <h1>Bali</h1>
+  </div>
   <script src="bali.js"></script>
 </body>
 

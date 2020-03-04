@@ -1,1 +1,22 @@
 // In this file you put all styles related to typography such as p, a, h1, etc.
+
+body {
+  color: $color-dark;
+  font-family: $font-primary;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+a {
+  // border-bottom: 1px solid $color-light;
+  color: $color-dark;
+  text-decoration: none;
+  transition: all 150ms ease;
+
+  &:hover {
+    border-bottom: 2px solid $color-light;
+    // background: $color-darkGrey;
+    // border-color: transparent;
+    color: $color-light;
+  }
+}
